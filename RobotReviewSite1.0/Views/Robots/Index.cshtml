@@ -38,8 +38,15 @@
                 <!-- Modal Body -->
                 <div class="modal-body">
                     <div class="body-message">
-                        <h4>Any Heading</h4>
-                        <p>And a paragraph with a full sentence or something else...</p>
+                        <h4></h4>
+                        <p>
+                            @Html.DisplayNameFor(model => model.FirstAppearsIn) : @Html.DisplayFor(modelItem => item.FirstAppearsIn)
+
+                        </p>
+                        <p>
+                            @Html.DisplayNameFor(model => model.CreatedBy) : @Html.DisplayFor(modelItem => item.CreatedBy)
+
+                        </p>
                     </div>
                 </div>
 
