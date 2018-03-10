@@ -1,0 +1,21 @@
+﻿@font-face {
+    font-family: 'TSalvacion';
+    src: url('Content/images/TSalvacion.ttf') format('truetype');
+}
+
+.clip-text {
+    font-family: 'TSalvacion';
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/429997/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+    // set to transparent, otherwise wont see the background width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 58px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    flex-shrink: 0;
+}

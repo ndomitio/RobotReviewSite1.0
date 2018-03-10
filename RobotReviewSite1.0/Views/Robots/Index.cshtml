@@ -1,14 +1,16 @@
 ﻿@model IEnumerable<RobotReviewSite1._0.Models.Robot>
-
+<link href="~/ROBOTINDEXstylesheet.css" rel="stylesheet" />
 @{
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<div class="clip-text">
+    Robot Index
+</div>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+<a class="btn btn-default" href="@Url.Action("Create", "Robots")"><i class="fas fa-user-plus"></i></a>
+
+
 <table class="table">
     <tr>
         <th>
@@ -32,32 +34,33 @@
         <th></th>
     </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Category.Function)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.FirstAppearsIn)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CreatedBy)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.IsGood)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.IsEvil)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.RobotID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.RobotID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.RobotID })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.Function)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstAppearsIn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsGood)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsEvil)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.RobotID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.RobotID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.RobotID })
+            </td>
+        </tr>
+    }
 
 </table>
