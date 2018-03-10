@@ -1,0 +1,77 @@
+﻿
+/*expandable menu*/
+
+body {
+    background-image: url('Content/images/vison.jpg');
+    background-size: cover;
+    font-family: 'AVENGEANCE HEROIC AVENGER AT';
+    color:white;
+    font-size:18px;
+}
+@font-face {
+    font-family: 'AVENGEANCE HEROIC AVENGER AT';
+    src: url('Content/AVENGEANCE HEROIC AVENGER AT.ttf') format('truetype');
+}
+
+.wrap {
+    padding: 15px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h4,
+modal-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.no-borders {
+    border: 0px;
+}
+
+.body-message {
+    font-size: 18px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #8B7A5D;
+    border-color: transparent;
+    outline: none;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 10px 25px;
+}
+
+    .btn-primary:hover {
+        background-color: #2086c1;
+        border-color: transparent;
+    }
+
+    .btn-primary:focus {
+        outline: none;
+    }
+
+
+/*video behind the title of page*/
+.clip-text {
+    font-family: 'AVENGEANCE HEROIC AVENGER AT';
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/429997/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+    // set to transparent, otherwise wont see the background width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+    flex-shrink: 0;
+}

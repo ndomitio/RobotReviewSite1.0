@@ -12,16 +12,15 @@
 
 @foreach (var item in Model)
 {
-<div class="wrap">
-    <h1>@Html.DisplayFor(modelItem => item.Name)</h1>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".@Html.DisplayFor(modelItem => item.Name)-modal-lg-new">
-        Details
-    </button>
-    <a class="btn btn-primary" href="@Url.Action("Create", "Robots")"><i class="fas fa-user-plus"></i></a>
-    <a class="btn btn-primary" href="@Url.Action("Edit", "Robots", new { id = item.RobotID })"><i class="far fa-edit"></i></a>
-    <a class="btn btn-primary" href="@Url.Action("Delete", "Robots", new { id = item.RobotID })"><i class="far fa-trash-alt"></i></a>
+    <div class="wrap">
+        <h1>@Html.DisplayFor(modelItem => item.Name)</h1>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".@Html.DisplayFor(modelItem => item.Name)-modal-lg-new">
+            Details
+        </button>
+        <a class="btn btn-primary" href="@Url.Action("Edit", "Robots", new { id = item.RobotID })"><i class="far fa-edit"></i></a>
+        <a class="btn btn-primary" href="@Url.Action("Delete", "Robots", new { id = item.RobotID })"><i class="far fa-trash-alt"></i></a>
 
-</div>
+    </div>
 
     <div class="modal fade @Html.DisplayFor(modelItem => item.Name)-modal-lg-new" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 
@@ -59,7 +58,7 @@
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
                     <a class="btn btn-default" style="font-size:20px;" href="@Url.Action("Details", "Robots", new { id = item.RobotID })"><i class="fas fa-search-plus"></i></a>
                 </div>
-                
+
             </div>
             <!-- Modal Content: ends -->
 
@@ -70,6 +69,8 @@
 
 
 }
+<a class="btn btn-primary" style="margin-top:20px;margin-left:20px;"href="@Url.Action("Create", "Robots")"><i class="fas fa-user-plus"></i></a>
+
 @*<table class="table">
         <tr>
             <th>

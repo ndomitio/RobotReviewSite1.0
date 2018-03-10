@@ -156,14 +156,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Category Index.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\cyberdyne-systems-logo.png" />
+    <Content Include="Content\images\irongiant.jpg" />
     <Content Include="Content\images\r2d2.jpg" />
     <Content Include="Content\images\techwallpaper.jpg" />
     <Content Include="Content\images\robotbackground.jpg" />
+    <Content Include="Content\images\vison.jpg" />
     <Content Include="Scripts\FALLOUTJavaScript.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -188,6 +191,7 @@
     <Content Include="Content\Terminat.ttf" />
     <Content Include="Content\terminatortwo.ttf" />
     <Content Include="Content\images\TSalvacion.ttf" />
+    <Content Include="Content\AVENGEANCE HEROIC AVENGER AT.ttf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
