@@ -164,6 +164,7 @@
     <Content Include="Content\images\r2d2.jpg" />
     <Content Include="Content\images\techwallpaper.jpg" />
     <Content Include="Content\images\robotbackground.jpg" />
+    <Content Include="Scripts\FALLOUTJavaScript.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -180,6 +181,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="LAUNCHPAGE.css" />
+    <Content Include="ROBOTDETAILS.css" />
     <Content Include="ROBOTINDEXstylesheet.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

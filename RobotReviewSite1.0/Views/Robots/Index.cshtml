@@ -29,7 +29,10 @@
                 <!-- Modal Header -->
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="gridSystemModalLabel">Your Headings</h4>
+                    <h4 class="modal-title" id="gridSystemModalLabel">
+                        @Html.DisplayNameFor(model => model.Category.Function) :
+                        @Html.DisplayFor(modelItem => item.Category.Function)
+                    </h4>
                 </div>
 
                 <!-- Modal Body -->
@@ -43,6 +46,7 @@
                 <!-- Modal Footer -->
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <a class="btn btn-default"style="font-size:20px;" href="@Url.Action("Details", "Robots",new { id = item.RobotID })"><i class="fas fa-search-plus"></i></a>
                 </div>
 
             </div>
