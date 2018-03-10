@@ -11,7 +11,9 @@
     height: 800px;
     width: 600px;
 }
-
+a{
+    color:black;
+}
 .credit {
     position: absolute;
     bottom: 0;
@@ -220,7 +222,7 @@ body {
     .navbar a {
         
         display: block;
-        color: #f2f2f2;
+        color: #f2f2f2!important;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
@@ -229,12 +231,12 @@ body {
 
         .navbar a:hover {
             background: #f1f1f1;
-            color: black;
+            color: black!important;
         }
 
         .navbar a.active {
             background-color: #4CAF50;
-            color: white;
+            color: white!important;
         }
 
 

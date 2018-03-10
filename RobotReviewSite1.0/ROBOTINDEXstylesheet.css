@@ -69,6 +69,6 @@ modal-title {
     font-size: 60px;
     font-weight: bold;
     text-align: center;
-    line-height: 100px;
+    line-height: 80px;
     flex-shrink: 0;
 }
