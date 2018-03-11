@@ -191,7 +191,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\Terminat.ttf" />
     <Content Include="Content\terminatortwo.ttf" />
-    <Content Include="Content\images\TSalvacion.ttf" />
+    <Content Include="Content\TSalvacion.ttf" />
     <Content Include="Content\AVENGEANCE HEROIC AVENGER AT.ttf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />

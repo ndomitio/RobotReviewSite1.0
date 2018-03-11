@@ -3,6 +3,11 @@
 .list-group-item{
     background-color: rgba(0,0,0,0.5);
 }
+@font-face {
+    font-family: 'TSalvacion';
+    src: url('Content/TSalvacion.ttf') format('truetype');
+}
+
 /*body styling*/
 body {
     background-image: url('Content/images/terminator_genisys_t_800-wide.jpg');
@@ -64,7 +69,7 @@ modal-title {
 
 /*video behind the title of page*/
 .clip-text {
-    font-family: 'Terminat';
+    font-family: 'TSalvacion';
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/429997/giphy.gif);
     background-size: cover;
     background-position: center;
