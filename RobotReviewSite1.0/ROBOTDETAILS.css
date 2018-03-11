@@ -278,7 +278,7 @@ nav.site {
 }
 
 #logo-v {
-    display: block;
+    opacity:0.5;
     height: auto;
     margin: 0 auto;
     width: 200px;
