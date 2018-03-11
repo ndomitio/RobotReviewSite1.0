@@ -3,12 +3,12 @@
 @{
     ViewBag.Title = "Index";
 }
-
+@*title with background eff*@
 <div class="clip-text">
     Category Index
 </div>
 
-
+@*list group for each category*@
 <div class="row">
 
     @foreach (var item in Model)
@@ -31,4 +31,5 @@
 
     }
 </div>
+@*button to create new category*@
 <a class="btn btn-primary" href="@Url.Action("Create", "Categories")"><i class="fas fa-user-plus"></i></a>
