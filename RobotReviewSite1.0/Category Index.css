@@ -55,10 +55,11 @@ modal-title {
     border-radius: 8px;
     font-size: 15px;
     padding: 10px 25px;
+    
 }
 
     .btn-primary:hover {
-        background-color: #2086c1;
+        background-color: white;
         border-color: transparent;
     }
 
