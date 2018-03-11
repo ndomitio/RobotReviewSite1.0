@@ -1,16 +1,20 @@
 ﻿
 /*expandable menu*/
-
+.list-group-item{
+    background-color: rgba(0,0,0,0.5);
+}
+/*body styling*/
 body {
-    background-image: url('Content/images/vison.jpg');
+    background-image: url('Content/images/terminator_genisys_t_800-wide.jpg');
+    
     background-size: cover;
-    font-family: 'AVENGEANCE HEROIC AVENGER AT';
-    color:white;
-    font-size:18px;
+    font-family: 'Terminat';
+    color: white;
+    font-size: 18px;
 }
 @font-face {
-    font-family: 'AVENGEANCE HEROIC AVENGER AT';
-    src: url('Content/AVENGEANCE HEROIC AVENGER AT.ttf') format('truetype');
+    font-family: 'Terminat';
+    src: url('Content/Terminat.ttf') format('truetype');
 }
 
 .wrap {
@@ -40,7 +44,7 @@ modal-title {
 }
 
 .btn-primary {
-    background-color: #8B7A5D;
+    background-color: #53564F;
     border-color: transparent;
     outline: none;
     border-radius: 8px;
@@ -60,7 +64,7 @@ modal-title {
 
 /*video behind the title of page*/
 .clip-text {
-    font-family: 'AVENGEANCE HEROIC AVENGER AT';
+    font-family: 'Terminat';
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/429997/giphy.gif);
     background-size: cover;
     background-position: center;

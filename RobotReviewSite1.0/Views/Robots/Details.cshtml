@@ -6,60 +6,6 @@
 
 <h2></h2>
 
-<div>
-    <h4></h4>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Category.Function)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Category.Function)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.FirstAppearsIn)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.FirstAppearsIn)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.CreatedBy)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.CreatedBy)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.IsGood)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.IsGood)
-        </dd>
-
-        <dt>
-            @Html.DisplayNameFor(model => model.IsEvil)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.IsEvil)
-        </dd>
-
-    </dl>
-</div>
 
 
 <div class="overlay"></div>
@@ -79,6 +25,40 @@
                 <p>- CyberDyne -</p>
             </div>
         </header>
+        <div class="container">
+            <div class="col-md-5 col-lg-5">
+
+
+                <ul class="">
+                    <li class="">
+                        @Html.DisplayNameFor(model => model.Category.Function) : @Html.DisplayFor(model => model.Category.Function)
+
+                    </li>
+                    <li class="">
+                        @Html.DisplayNameFor(model => model.Name) : @Html.DisplayFor(model => model.Name)
+
+                    </li>
+                    <li class="">
+                        @Html.DisplayNameFor(model => model.FirstAppearsIn) : @Html.DisplayFor(model => model.FirstAppearsIn)
+
+                    </li>
+                    <li class="">
+                        @Html.DisplayNameFor(model => model.CreatedBy) : @Html.DisplayFor(model => model.CreatedBy)
+
+                    </li>
+                    <li class="">
+                        @Html.DisplayNameFor(model => model.IsGood) : @Html.DisplayFor(model => model.IsGood)
+
+                    </li>
+                    <li class="">
+                        @Html.DisplayNameFor(model => model.IsEvil) : @Html.DisplayFor(model => model.IsEvil)
+
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
 
         <nav class="site clear">
             <ul>

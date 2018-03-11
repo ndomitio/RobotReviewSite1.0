@@ -166,6 +166,7 @@
     <Content Include="Content\images\r2d2.jpg" />
     <Content Include="Content\images\techwallpaper.jpg" />
     <Content Include="Content\images\robotbackground.jpg" />
+    <Content Include="Content\images\terminator_genisys_t_800-wide.jpg" />
     <Content Include="Content\images\vison.jpg" />
     <Content Include="Scripts\FALLOUTJavaScript.js" />
     <Content Include="favicon.ico" />
